@@ -1,0 +1,17 @@
+﻿<Window x:Class="пр6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bubleS" Margin="596,35,28,336" Content="Сорт пузырьком" Click="bubleS_Click" IsEnabled="False"/>
+        <Button x:Name="insertS" Margin="597,120,28,251" Content="Сорт вставками" Click="insertS_Click" IsEnabled="False"/>
+        <Button x:Name="selectionS" Margin="595,217,29,154" Content="Сорт выбором" Click="selectionS_Click" IsEnabled="False"/>
+        <Button x:Name="quickS" Margin="597,314,28,57" Content="Быстрая сорт" Click="quickS_Click" IsEnabled="False"/>
+        <Button x:Name="gen_mas" Margin="281,35,345,336" Content="Сгенерировать массив" Click="gen_mas_Click"/>
+        <TextBlock x:Name="massiv" Text="Массив тут" Margin="10,10,578,10"/>
+    </Grid>
+</Window>
